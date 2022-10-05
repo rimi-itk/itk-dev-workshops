@@ -3,6 +3,6 @@
 ## Coding standards
 
 ```sh
-yarn install
-yarn coding-standards-check
+docker run --tty --interactive --rm --volume ${PWD}:/app --workdir /app node:18 yarn install
+docker run --tty --interactive --rm --volume ${PWD}:/app --workdir /app node:18 yarn coding-standards-check
 ```
