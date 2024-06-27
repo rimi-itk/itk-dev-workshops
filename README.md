@@ -2,7 +2,7 @@
 
 ## Coding standards
 
-```sh
-docker run --tty --interactive --rm --volume ${PWD}:/app --workdir /app node:18 yarn install
-docker run --tty --interactive --rm --volume ${PWD}:/app --workdir /app node:18 yarn coding-standards-check
+```shell
+docker run --rm --volume $PWD:/md peterdavehello/markdownlint markdownlint --ignore vendor --ignore LICENSE.md '**/*.md' --fix
+docker run --rm --volume $PWD:/md peterdavehello/markdownlint markdownlint --ignore vendor --ignore LICENSE.md '**/*.md'
 ```
