@@ -7,4 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+* [PR-3](https://github.com/rimi-itk/itk-dev-workshops/pull/3)
+  Added CHANGELOG.md
+
 [Unreleased]: https://github.com/rimi-itk/itk-dev-workshops
